@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+    width: 80%;
+    margin: 50px auto;
+}
+
+#steph{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.entry{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.required{
+    color: red;
+}
